@@ -54,7 +54,7 @@ export default function Contact() {
       <div className="grid gap-10 lg:grid-cols-5">
         {/* info panel */}
         <Reveal variant="left" className="lg:col-span-2">
-          <div className="glass-gold flex h-full flex-col justify-between !rounded-3xl p-9">
+          <div className="glass-gold flex h-full flex-col justify-between !rounded-3xl p-6 sm:p-9">
             <div>
               <h3 className="font-display text-2xl text-white">Direct Lines</h3>
               <p className="mt-3 text-sm leading-relaxed text-mist">
@@ -115,7 +115,7 @@ export default function Contact() {
 
         {/* form */}
         <Reveal variant="right" className="lg:col-span-3">
-          <form onSubmit={handleSubmit} className="glass !rounded-3xl p-9">
+          <form onSubmit={handleSubmit} className="glass !rounded-3xl p-6 sm:p-9">
             {sent ? (
               <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}

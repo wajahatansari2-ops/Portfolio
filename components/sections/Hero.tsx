@@ -90,7 +90,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: -18 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 0.8 }}
-        className="glass mb-8 flex items-center gap-2.5 !rounded-full px-5 py-2.5 text-sm text-mist"
+        className="glass mb-8 flex max-w-[92vw] items-center gap-2.5 !rounded-full px-4 py-2.5 text-center text-xs text-mist sm:px-5 sm:text-sm"
       >
         <span className="relative flex h-2.5 w-2.5">
           <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-gold-400 opacity-60" />
@@ -123,7 +123,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.9, duration: 1 }}
-        className="mt-5 text-lg font-medium uppercase tracking-[0.45em] text-mist sm:text-xl"
+        className="mt-5 text-xs font-medium uppercase tracking-[0.28em] text-mist sm:text-xl sm:tracking-[0.45em]"
       >
         {site.title}
       </motion.p>
@@ -133,7 +133,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.15, duration: 0.9 }}
-        className="mt-8 flex h-12 items-center justify-center font-display text-2xl text-gold-300 sm:text-3xl"
+        className="mt-6 flex min-h-[3rem] flex-wrap items-center justify-center px-2 font-display text-lg text-gold-300 sm:mt-8 sm:text-3xl"
         aria-live="polite"
       >
         <span className="mr-3 text-mist/70">I craft</span>

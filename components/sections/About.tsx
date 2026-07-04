@@ -60,14 +60,14 @@ export default function About() {
         <div className="space-y-14">
           {TIMELINE.map((item, i) => (
             <Reveal key={item.title} variant={i % 2 ? "right" : "left"} delay={0.05}>
-              <div className="group relative flex gap-7 pl-2 sm:gap-10">
+              <div className="group relative flex gap-4 pl-1 sm:gap-10 sm:pl-2">
                 {/* node */}
                 <div className="relative z-10 mt-1 grid h-9 w-9 shrink-0 place-items-center rounded-full border border-gold-500/50 bg-royal-900 text-gold-400 shadow-gold-glow transition-transform duration-500 group-hover:scale-110 sm:h-12 sm:w-12">
                   <Icon name={item.icon} className="h-4 w-4 sm:h-5 sm:w-5" />
                 </div>
-                <div className="glass-gold group flex-1 p-7">
-                  <h3 className="font-display text-xl text-gold-300 sm:text-2xl">{item.title}</h3>
-                  <p className="mt-3 leading-relaxed text-mist">{item.body}</p>
+                <div className="glass-gold group min-w-0 flex-1 p-5 sm:p-7">
+                  <h3 className="font-display text-lg text-gold-300 sm:text-2xl">{item.title}</h3>
+                  <p className="mt-3 text-sm leading-relaxed text-mist sm:text-base">{item.body}</p>
                 </div>
               </div>
             </Reveal>

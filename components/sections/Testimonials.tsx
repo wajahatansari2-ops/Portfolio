@@ -66,9 +66,9 @@ export default function Testimonials() {
                 animate="center"
                 exit="exit"
                 transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
-                className="glass-gold absolute inset-0 flex flex-col justify-between !rounded-3xl p-9 sm:p-12"
+                className="glass-gold absolute inset-0 flex flex-col justify-between !rounded-3xl p-6 sm:p-12"
               >
-                <blockquote className="font-display text-lg leading-relaxed text-cream sm:text-xl">
+                <blockquote className="font-display text-base leading-relaxed text-cream sm:text-xl">
                   &ldquo;{t.quote}&rdquo;
                 </blockquote>
                 <figcaption className="mt-8 flex items-center gap-4">

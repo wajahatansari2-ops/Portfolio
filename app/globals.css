@@ -156,7 +156,7 @@ body {
   }
 
   .section-title {
-    @apply font-display text-4xl leading-tight text-white sm:text-5xl md:text-6xl;
+    @apply font-display text-3xl leading-tight text-white sm:text-5xl md:text-6xl;
   }
 }
 

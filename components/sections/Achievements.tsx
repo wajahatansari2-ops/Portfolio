@@ -28,7 +28,7 @@ function Counter({ value, suffix }: { value: number; suffix: string }) {
   }, [inView, value]);
 
   return (
-    <span ref={ref} className="text-gold-shimmer font-display text-5xl font-bold sm:text-6xl">
+    <span ref={ref} className="text-gold-shimmer font-display text-3xl font-bold sm:text-6xl">
       {display.toLocaleString()}
       {suffix}
     </span>
