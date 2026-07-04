@@ -5,7 +5,7 @@
   "description": "Muhammad Wajahat — AI Automation Consultant | Premium Portfolio",
   "scripts": {
     "dev": "next dev",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "start": "next start",
     "lint": "next lint"
   },
