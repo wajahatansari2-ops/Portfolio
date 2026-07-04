@@ -1,0 +1,29 @@
+{
+  "_comment": "══ TESTIMONIALS ══ Add/remove/edit freely. Keep quotes under ~40 words for best card layout.",
+  "testimonials": [
+    {
+      "quote": "Wajahat automated our entire lead pipeline. Enquiries that used to sit for hours are now qualified and booked in minutes. Our agents finally focus on closing, not admin.",
+      "name": "Ahmed Al Mansoori",
+      "role": "Sales Director",
+      "company": "Dubai Real Estate Agency"
+    },
+    {
+      "quote": "The WhatsApp automation alone paid for itself in the first month. Cold leads we had written off started booking viewings again. Genuinely transformative.",
+      "name": "Sarah Thompson",
+      "role": "Managing Partner",
+      "company": "Property Consultancy, Business Bay"
+    },
+    {
+      "quote": "Professional, fast and deeply technical. He didn't just build automations — he redesigned how our sales team works. Hours of manual CRM work simply disappeared.",
+      "name": "Omar Khalid",
+      "role": "CEO",
+      "company": "Off-Plan Developer, Downtown Dubai"
+    },
+    {
+      "quote": "Our AI concierge answers in Arabic and English, day and night. Clients think it's a human. The quality of engineering behind it is exceptional.",
+      "name": "Fatima Al Zahra",
+      "role": "Head of Marketing",
+      "company": "Luxury Property Group"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "_howToUpload": [
+    "══════════════════ HOW TO UPLOAD A NEW DEMO VIDEO ══════════════════",
+    "1. Drop your MP4 file into /public/videos/  (e.g. my-new-demo.mp4)",
+    "2. Drop a poster image into /public/thumbnails/ (1280×720, .jpg/.png/.svg)",
+    "3. Add an entry below with src '/videos/my-new-demo.mp4' and poster '/thumbnails/my-poster.jpg'",
+    "4. Save — the gallery carousel picks it up automatically."
+  ],
+  "videos": [
+    {
+      "id": "demo-lead-concierge",
+      "title": "AI Lead Concierge — Live Demo",
+      "duration": "2:40",
+      "src": "/videos/ai-lead-concierge.mp4",
+      "poster": "/thumbnails/project-1.svg"
+    },
+    {
+      "id": "demo-crm-autopilot",
+      "title": "CRM Autopilot Walkthrough",
+      "duration": "3:15",
+      "src": "/videos/crm-autopilot.mp4",
+      "poster": "/thumbnails/project-2.svg"
+    },
+    {
+      "id": "demo-listing-genius",
+      "title": "Listing Genius in Action",
+      "duration": "1:58",
+      "src": "/videos/listing-genius.mp4",
+      "poster": "/thumbnails/project-3.svg"
+    },
+    {
+      "id": "demo-whatsapp-nurture",
+      "title": "WhatsApp Nurture Engine Demo",
+      "duration": "2:22",
+      "src": "/videos/whatsapp-nurture.mp4",
+      "poster": "/thumbnails/project-4.svg"
+    }
+  ]
+}

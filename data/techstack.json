@@ -1,0 +1,21 @@
+{
+  "_comment": "══ TECH STACK ══ Two marquee rows. 'abbr' is shown in the gold medallion.",
+  "rowOne": [
+    { "name": "OpenAI", "abbr": "AI" },
+    { "name": "Claude", "abbr": "CL" },
+    { "name": "GPT-4o", "abbr": "G4" },
+    { "name": "n8n", "abbr": "n8" },
+    { "name": "Make.com", "abbr": "Mk" },
+    { "name": "Zapier", "abbr": "Zp" },
+    { "name": "Vector Databases", "abbr": "VD" }
+  ],
+  "rowTwo": [
+    { "name": "React", "abbr": "Re" },
+    { "name": "Next.js", "abbr": "Nx" },
+    { "name": "Python", "abbr": "Py" },
+    { "name": "Node.js", "abbr": "Nd" },
+    { "name": "Supabase", "abbr": "Sb" },
+    { "name": "Firebase", "abbr": "Fb" },
+    { "name": "MongoDB", "abbr": "Mg" }
+  ]
+}

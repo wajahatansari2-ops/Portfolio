@@ -1,0 +1,78 @@
+{
+  "_howToUpdate": [
+    "══════════════════ HOW TO ADD A NEW PROJECT ══════════════════",
+    "1. Copy any object below and edit the fields.",
+    "2. thumbnail: put an image in /public/thumbnails/ (1280×720 recommended) and reference it as /thumbnails/your-file.jpg",
+    "3. video: put an MP4 in /public/videos/ and reference it as /videos/your-demo.mp4 — leave \"\" to hide the Watch Video button.",
+    "4. liveUrl / sourceUrl: leave \"\" to hide those buttons.",
+    "5. Save the file — the site updates automatically on next build/refresh."
+  ],
+  "projects": [
+    {
+      "id": "ai-lead-concierge",
+      "title": "AI Lead Concierge for Dubai Brokerage",
+      "description": "An autonomous AI agent that answers every portal enquiry in under 60 seconds, qualifies budget & intent, and books viewings straight into agents' calendars. Response time dropped from 4 hours to instant.",
+      "tags": ["OpenAI GPT-4o", "n8n", "WhatsApp API", "Supabase"],
+      "thumbnail": "/thumbnails/project-1.svg",
+      "video": "/videos/ai-lead-concierge.mp4",
+      "liveUrl": "",
+      "sourceUrl": "",
+      "highlight": "3.4× more qualified viewings"
+    },
+    {
+      "id": "crm-autopilot",
+      "title": "CRM Autopilot — Zero Manual Entry",
+      "description": "Full CRM automation for a property developer: every call, email and WhatsApp message is transcribed, summarised and logged automatically, with next actions assigned to the right agent.",
+      "tags": ["Make.com", "OpenAI", "HubSpot", "Twilio"],
+      "thumbnail": "/thumbnails/project-2.svg",
+      "video": "/videos/crm-autopilot.mp4",
+      "liveUrl": "",
+      "sourceUrl": "",
+      "highlight": "22 hours saved / agent / month"
+    },
+    {
+      "id": "listing-genius",
+      "title": "Listing Genius — AI Property Copywriter",
+      "description": "Generates portal-ready listing descriptions, social captions and Arabic translations from a photo set and a few bullet points. Trained on high-converting Dubai listings.",
+      "tags": ["Next.js", "Claude API", "Vector DB", "Firebase"],
+      "thumbnail": "/thumbnails/project-3.svg",
+      "video": "/videos/listing-genius.mp4",
+      "liveUrl": "",
+      "sourceUrl": "",
+      "highlight": "Listings live 10× faster"
+    },
+    {
+      "id": "whatsapp-nurture",
+      "title": "WhatsApp Nurture Engine",
+      "description": "A 90-day intelligent drip system that revives cold leads with personalised market updates, new-launch alerts and payment-plan calculators — all inside WhatsApp.",
+      "tags": ["WhatsApp Business API", "n8n", "GPT-4o", "MongoDB"],
+      "thumbnail": "/thumbnails/project-4.svg",
+      "video": "/videos/whatsapp-nurture.mp4",
+      "liveUrl": "",
+      "sourceUrl": "",
+      "highlight": "18% of dead leads reactivated"
+    },
+    {
+      "id": "investor-matchmaker",
+      "title": "Investor Matchmaker AI",
+      "description": "Semantic matching engine that pairs off-plan inventory with the right investors using embeddings of preferences, past behaviour and ROI profiles.",
+      "tags": ["Python", "Pinecone", "OpenAI Embeddings", "Zapier"],
+      "thumbnail": "/thumbnails/project-5.svg",
+      "video": "/videos/investor-matchmaker.mp4",
+      "liveUrl": "",
+      "sourceUrl": "",
+      "highlight": "2× faster off-plan allocation"
+    },
+    {
+      "id": "agency-command-center",
+      "title": "Agency Command Center",
+      "description": "A real-time dashboard unifying leads, deals, agent performance and automation health — with an AI analyst that answers questions about the business in plain English.",
+      "tags": ["Next.js", "Node.js", "Supabase", "GPT-4o"],
+      "thumbnail": "/thumbnails/project-6.svg",
+      "video": "/videos/agency-command-center.mp4",
+      "liveUrl": "",
+      "sourceUrl": "",
+      "highlight": "One screen for the whole agency"
+    }
+  ]
+}

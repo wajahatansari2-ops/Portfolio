@@ -1,0 +1,25 @@
+{
+  "_comment": "══ GLOBAL SITE SETTINGS ══ Edit name, tagline, links & typing words here.",
+  "name": "Muhammad Wajahat",
+  "initials": "MW",
+  "title": "AI Automation Consultant",
+  "tagline": "I Build AI Automation Systems That Help Dubai Real Estate Companies Save Time, Generate More Leads & Scale Faster.",
+  "location": "Dubai, United Arab Emirates",
+  "email": "wajahatansari2@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/its-wajahat-ansari/",
+  "bookCallUrl": "mailto:wajahatansari2@gmail.com?subject=Book%20a%20Call%20—%20AI%20Automation",
+  "resumeUrl": "/resume/Muhammad-Wajahat-Resume.pdf",
+  "typingWords": [
+    "AI Automation",
+    "Workflow Automation",
+    "CRM Automation",
+    "Lead Generation",
+    "Chatbots",
+    "AI Agents",
+    "Real Estate AI"
+  ],
+  "social": [
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/its-wajahat-ansari/", "icon": "linkedin" },
+    { "label": "Email", "href": "mailto:wajahatansari2@gmail.com", "icon": "mail" }
+  ]
+}

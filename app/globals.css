@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ═══════════════════════════════════════════════════════════════
+   GLOBAL LUXURY FOUNDATION
+   ═══════════════════════════════════════════════════════════════ */
+
+:root {
+  --royal-deep: #050b1f;
+  --royal: #27439b;
+  --gold: #d9b85c;
+  --gold-light: #f6e4b5;
+  --gold-dark: #a67f33;
+  --cream: #faf6ec;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+body {
+  @apply bg-royal-950 text-cream font-sans antialiased overflow-x-hidden;
+  background-image: radial-gradient(
+      ellipse 80% 50% at 50% -10%,
+      rgba(39, 67, 155, 0.28),
+      transparent
+    ),
+    radial-gradient(ellipse 60% 40% at 90% 20%, rgba(217, 184, 92, 0.05), transparent);
+}
+
+::selection {
+  background: rgba(217, 184, 92, 0.35);
+  color: #fff;
+}
+
+/* Luxury thin scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050b1f;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #a67f33, #d9b85c);
+  border-radius: 8px;
+}
+
+/* Hide native cursor on fine pointers — custom cursor takes over */
+@media (pointer: fine) {
+  body.custom-cursor-active,
+  body.custom-cursor-active a,
+  body.custom-cursor-active button {
+    cursor: none;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   REUSABLE LUXURY UTILITIES
+   ═══════════════════════════════════════════════════════════════ */
+
+@layer components {
+  /* Gold shimmer text — used on key headings */
+  .text-gold-shimmer {
+    @apply bg-gold-gradient bg-clip-text text-transparent;
+    background-size: 200% auto;
+    animation: shimmer 4s linear infinite;
+  }
+
+  /* Glassmorphism card */
+  .glass {
+    @apply rounded-2xl border border-white/10 shadow-glass;
+    background: linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.07) 0%,
+      rgba(255, 255, 255, 0.02) 100%
+    );
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+  }
+
+  /* Glass card with animated gold border on hover */
+  .glass-gold {
+    @apply glass relative transition-all duration-500;
+  }
+  .glass-gold::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(
+      120deg,
+      transparent 20%,
+      rgba(217, 184, 92, 0.6),
+      rgba(246, 228, 181, 0.9),
+      rgba(217, 184, 92, 0.6),
+      transparent 80%
+    );
+    background-size: 300% 100%;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    animation: borderFlow 4s linear infinite;
+    pointer-events: none;
+  }
+  .glass-gold:hover::before {
+    opacity: 1;
+  }
+  .glass-gold:hover {
+    @apply shadow-gold-glow -translate-y-1;
+  }
+
+  /* Primary glowing gold button */
+  .btn-gold {
+    @apply relative inline-flex items-center justify-center gap-2 rounded-full px-8 py-4
+      font-semibold text-royal-950 bg-gold-gradient transition-all duration-300
+      shadow-gold-glow hover:shadow-gold-glow-lg hover:scale-[1.04] active:scale-95;
+    background-size: 200% auto;
+  }
+  .btn-gold:hover {
+    background-position: right center;
+  }
+
+  /* Ghost / outline luxury button */
+  .btn-ghost {
+    @apply relative inline-flex items-center justify-center gap-2 rounded-full px-8 py-4
+      font-semibold text-gold-400 border border-gold-500/40 backdrop-blur-md
+      transition-all duration-300 hover:border-gold-400 hover:bg-gold-500/10
+      hover:shadow-gold-glow active:scale-95;
+  }
+
+  /* Section shell — consistent luxury spacing */
+  .section-shell {
+    @apply relative mx-auto w-full max-w-7xl px-6 py-24 sm:px-10 md:py-32;
+  }
+
+  /* Kicker label above section titles */
+  .section-kicker {
+    @apply mb-4 inline-flex items-center gap-3 text-xs font-semibold uppercase
+      tracking-[0.35em] text-gold-500;
+  }
+  .section-kicker::before {
+    content: "";
+    @apply block h-px w-10 bg-gold-gradient;
+  }
+
+  .section-title {
+    @apply font-display text-4xl leading-tight text-white sm:text-5xl md:text-6xl;
+  }
+}
+
+/* Aurora blobs behind sections */
+.aurora-blob {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(90px);
+  pointer-events: none;
+  animation: aurora 16s ease-in-out infinite alternate;
+}
+
+/* Typing caret */
+.typing-caret {
+  display: inline-block;
+  width: 3px;
+  height: 1em;
+  margin-left: 4px;
+  vertical-align: -0.1em;
+  background: linear-gradient(180deg, #f6e4b5, #d9b85c);
+  animation: caretBlink 0.9s step-end infinite;
+}
+@keyframes caretBlink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

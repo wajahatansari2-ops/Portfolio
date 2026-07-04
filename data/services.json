@@ -1,0 +1,55 @@
+{
+  "_comment": "══ SERVICES ══ Add/remove/edit cards freely. 'icon' must match a key in components/ui/Icons.tsx",
+  "services": [
+    {
+      "icon": "sparkles",
+      "title": "AI Automation",
+      "description": "End-to-end intelligent systems that eliminate repetitive work and run your operations on autopilot, 24/7."
+    },
+    {
+      "icon": "bot",
+      "title": "AI Agents",
+      "description": "Autonomous agents that qualify leads, answer queries and take action across your tools — like hiring a tireless digital employee."
+    },
+    {
+      "icon": "target",
+      "title": "Lead Automation",
+      "description": "Capture, score, route and nurture every property lead instantly — so no enquiry is ever left cold."
+    },
+    {
+      "icon": "database",
+      "title": "CRM Automation",
+      "description": "Deep CRM integrations that sync data, trigger follow-ups and keep your pipeline immaculate without manual entry."
+    },
+    {
+      "icon": "chat",
+      "title": "Chatbots",
+      "description": "Multilingual AI chatbots for your website and socials that convert visitors into booked viewings around the clock."
+    },
+    {
+      "icon": "workflow",
+      "title": "Workflow Automation",
+      "description": "n8n, Make & Zapier pipelines that connect your entire stack into one seamless, self-running machine."
+    },
+    {
+      "icon": "whatsapp",
+      "title": "WhatsApp Automation",
+      "description": "Automated WhatsApp journeys — instant replies, drip campaigns and viewing reminders where Dubai clients actually respond."
+    },
+    {
+      "icon": "openai",
+      "title": "OpenAI Integration",
+      "description": "GPT-powered features embedded into your products and processes: summaries, drafting, extraction and decisioning."
+    },
+    {
+      "icon": "building",
+      "title": "Real Estate Automation",
+      "description": "Purpose-built automation for listings, portals, viewings and agent workflows — designed for the Dubai market."
+    },
+    {
+      "icon": "gears",
+      "title": "Business Process Automation",
+      "description": "Audit, redesign and automate core business processes to cut costs and unlock scale without new headcount."
+    }
+  ]
+}

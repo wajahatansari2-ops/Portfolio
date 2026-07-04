@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0C1A45"/>
+      <stop offset="55%" stop-color="#081130"/>
+      <stop offset="100%" stop-color="#050B1F"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A67F33"/>
+      <stop offset="50%" stop-color="#F6E4B5"/>
+      <stop offset="100%" stop-color="#D9B85C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="56%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#27439B" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#27439B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#glow)"/>
+  <g stroke="#D9B85C" stroke-opacity="0.22" fill="none">
+    <circle cx="300" cy="150" r="4" fill="#D9B85C" fill-opacity="0.6" stroke="none"/>
+    <circle cx="510" cy="90" r="3" fill="#D9B85C" fill-opacity="0.5" stroke="none"/>
+    <circle cx="905" cy="180" r="5" fill="#D9B85C" fill-opacity="0.5" stroke="none"/>
+    <circle cx="1100" cy="560" r="3" fill="#D9B85C" fill-opacity="0.5" stroke="none"/>
+    <circle cx="260" cy="580" r="4" fill="#D9B85C" fill-opacity="0.45" stroke="none"/>
+    <path d="M300 150 L510 90 L905 180 L1100 560 L260 580 Z"/>
+    <path d="M510 90 L260 580 M905 180 L260 580"/>
+  </g>
+  <text x="80" y="360" font-family="Georgia, serif" font-size="72" fill="url(#gold)" font-weight="bold">WhatsApp Nurture</text>
+  <text x="80" y="420" font-family="Arial, sans-serif" font-size="30" letter-spacing="6" fill="#9AA7C2">LEAD REVIVAL ENGINE</text>
+  <rect x="80" y="460" width="120" height="3" fill="url(#gold)"/>
+  <text x="1200" y="660" text-anchor="end" font-family="Georgia, serif" font-size="26" fill="#D9B85C" fill-opacity="0.7">MW — Project 04</text>
+</svg>

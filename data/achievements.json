@@ -1,0 +1,10 @@
+{
+  "_comment": "══ ACHIEVEMENT COUNTERS ══ 'value' is the number counted up to; 'suffix' is appended after it.",
+  "achievements": [
+    { "label": "Projects Delivered", "value": 40, "suffix": "+" },
+    { "label": "Happy Clients", "value": 25, "suffix": "+" },
+    { "label": "Automations Built", "value": 120, "suffix": "+" },
+    { "label": "Hours Saved for Clients", "value": 15000, "suffix": "+" },
+    { "label": "AI Integrations", "value": 60, "suffix": "+" }
+  ]
+}
